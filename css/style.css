@@ -201,7 +201,7 @@ a, button, img, .nav-link, .btn {
   overflow: hidden;
   padding: 60px;
 
-  background-image: url("images/heroImage.jpg");
+  background-image: url("../images/heroImage.jpg");
   background-size: cover;
   background-position: center;
 
