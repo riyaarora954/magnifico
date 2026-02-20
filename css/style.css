@@ -1,4 +1,4 @@
-/* ================= RESET ================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,20 +6,19 @@
     font-family: "Segoe UI", sans-serif;
 }
 
-/* Prevent horizontal scroll */
+
 html,
 body {
     max-width: 100%;
     overflow-x: hidden;
 }
 
-/* Bootstrap row fix */
+
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
 
-/* Smooth hover */
 a,
 button,
 img,
@@ -28,13 +27,11 @@ img,
     transition: all 0.3s ease-in-out;
 }
 
-/* ================= HEADER ================= */
 .header-section {
     min-height: 90px;
     border-bottom: 1px solid #E2E8F0;
 }
 
-/* Remove Bootstrap dropdown arrow */
 .dropdown-toggle::after {
     display: none !important;
 }
@@ -49,7 +46,6 @@ img,
     color: #1E40AF;
 }
 
-/* Button */
 .sign-up-btn {
     background-color: #2563EB;
     color: white;
@@ -68,14 +64,12 @@ img,
     transform: scale(0.96);
 }
 
-/* Navbar links */
 .nav-link {
     color: #0F172A !important;
     font-weight: 600;
     position: relative;
 }
 
-/* Underline hover effect */
 .nav-link::after {
     content: "";
     position: absolute;
@@ -91,7 +85,6 @@ img,
     width: 100%;
 }
 
-/* ================= INPUT ================= */
 .input-container {
     position: relative;
     width: 100%;
@@ -118,14 +111,12 @@ img,
     color: gray;
 }
 
-/* ================= MAIN LAYOUT ================= */
 .main {
     margin: 70px auto;
     max-width: 1200px;
     padding: 0 15px;
 }
 
-/* Remove extra flex conflict */
 .sections-content {
     align-items: center;
 }
@@ -164,8 +155,6 @@ img,
   opacity: 1;
 }
 
-
-/* ================= HERO SECTION ================= */
 .section1 h1 {
     margin-top: 20px;
     font-size: 60px;
@@ -188,19 +177,16 @@ img,
     margin-bottom: 20px;
 }
 
-/* ================= IMAGES ================= */
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Banner images */
 .img-banner {
     border-radius: 12px;
     /* box-shadow removed */
 }
 
-/* Image group */
 .img-group {
     display: flex;
     justify-content: center;
@@ -214,12 +200,10 @@ img {
     border-radius: 20px;
 }
 
-/* Remove hover shadows */
 .img-group img:hover {
     transform: translateY(-10px) scale(1.05);
 }
 
-/* stagger effect */
 .img-group img:nth-child(1),
 .img-group img:nth-child(3) {
     transform: translateY(30px);
@@ -229,7 +213,6 @@ img {
     transform: translateY(-30px);
 }
 
-/* ================= SECTIONS ================= */
 .section2 h2,
 .section3 h2,
 .section4 h2,
@@ -245,7 +228,6 @@ img {
     color: #475569;
 }
 
-/* HERO IMAGE BLOCK */
 .hero-image {
     position: relative;
     min-height: 450px;
@@ -272,13 +254,11 @@ img {
     z-index: 2;
 }
 
-/* Section 4 text */
 .section4 h2,
 .section4 p {
     color: white;
 }
 
-/* ================= CTA SECTION ================= */
 .section6 h2 {
     font-weight: 700;
 }
@@ -293,8 +273,6 @@ img {
     padding: 80px 40px;
     color: white;
 }
-
-/* ================= FOOTER ================= */
 
 .copyright{
     padding-top: 10px;
@@ -331,8 +309,6 @@ img {
     margin: 4rem;
     flex-wrap: wrap;
 }
-
-/* ================= RESPONSIVE ================= */
 @media (max-width: 992px) {
     .main {
         margin: 40px 20px;
@@ -433,7 +409,6 @@ img {
         padding: 50px 20px;
     }
 
-    /* Fix image group overflow */
     .img-group {
         flex-wrap: wrap;
     }
@@ -474,7 +449,3 @@ img {
         margin-bottom: 10px;
     }
 }
-
-
-
-/* (mobile navbar styles consolidated in 992px block above) */
